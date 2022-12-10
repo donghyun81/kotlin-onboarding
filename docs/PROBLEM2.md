@@ -21,3 +21,11 @@
 | --- | --- |
 | "browoanoommnaon" | "brown" |
 | "zyelleyz" | "" |
+
+
+### 기능 목록 작성
+
+- 문자 해독 decode()
+- 문자 반복 해독 repeatDecode()
+- 현 글자가 다음 글자랑 중복인지 isDuplicate()
+- 암호문이 중복된 값이 있는지 확인하는 조건 구현 hasDuplicate()

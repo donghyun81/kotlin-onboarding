@@ -21,3 +21,10 @@
 | forms | result |
 | --- | --- |
 | [ ["jm@email.com", "제이엠"], ["jason@email.com", "제이슨"], ["woniee@email.com", "워니"], ["mj@email.com", "엠제이"], ["nowm@email.com", "이제엠"] ] | ["jason@email.com", "jm@email.com", "mj@email.com"] |
+
+### 기능 목록 작성 
+
+- 형식에 맞는지 확인하는 기능 isEmailForm(),isNickNameForm(),isCrewHeadCountRange()
+- 형식에 맞지 않을 경우 예외를 호출하는 기능 exceptionForm()
+- 연속된 글자중에 중복되는 글자를 목록에 담는 기능 findDuplicatesInSeparateNicknames()
+- 이메일을 추출 하는 기능 getDuplicateNicknameEmails()
